@@ -33,3 +33,18 @@ O(n^2)
 🔸 2. Adım:Kalan dizi:[3,5,8,7,9,4,15,6][3,5,8,7,9,4,15,6] En küçük eleman: 3Zaten yerinde → Değişiklik yok.[2,3,5,8,7,9,4,15,6] [2,3,5,8,7,9,4,15,6]
 🔸 3. Adım:Kalan dizi:[5,8,7,9,4,15,6][5,8,7,9,4,15,6] En küçük eleman: 44 ile 5 yer değiştirir.[2,3,4,8,7,9,5,15,6] [2,3,4,8,7,9,5,15,6]
 🔸 4. Adım:Kalan dizi:[8,7,9,5,15,6][8,7,9,5,15,6] En küçük eleman: 55 ile 8 yer değiştirir.[2,3,4,5,7,9,8,15,6] [2,3,4,5,7,9,8,15,6]
+
+
+# Merge-Sort-Proje-Patika
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+[16,21,11,8,12,22] 
+[16,21,11] [8,12,22] 
+[16,21] [11][ 8,12] [22] 
+[16] [21] [11] [8] [12] [22] 
+[8,11,12,16,21,22]
+Big-O gösterimi= O(nlogn)
+
